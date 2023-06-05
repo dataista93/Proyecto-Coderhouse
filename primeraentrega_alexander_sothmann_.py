@@ -430,9 +430,6 @@ df_casos_final.shape
 for columns in df_casos_final:
    print(df_casos_final[columns].value_counts())
 
-#Cuenta todos los nulos segun cada columna
-
- df_casos_final.isna().sum().sort_values(ascending = False)
 
 """##**3. Estadística descriptiva**<a name="id3"></a>
 
