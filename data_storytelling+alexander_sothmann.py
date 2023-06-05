@@ -25,7 +25,7 @@ def load_data(nrows):
     return data
 
 data_load_state = st.text('Loading data...')
-data = load_data(10000)
+data = load_data(1000000)
 data_load_state.text("Done! (using st.cache_data)")
 
 if st.checkbox('Show raw data'):
