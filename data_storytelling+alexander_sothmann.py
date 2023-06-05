@@ -11,8 +11,25 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
+'''
+####**TITULO:** Evaluación de implemetanción de sistema CRM para la atención a la ciudadania. 
+
+####**INDICE** 
+1. [Introducción](#id1)
+2. [Contexto pandemia Covid-19](#id2)
+3. [Problematica e impacto](#id3)
+4. [Propuesta de mejora](#id4)
 
 
+
+## **1. Introducción**<a name="id1"></a>
+
+![Funciones de la Coordinación de Documentación e Información al Ciudadano](https://ibb.co/5vcszGM)
+
+
+
+
+'''
 
 
 DATA_URL = ('https://raw.githubusercontent.com/dataista93/Proyecto-Coderhouse/main/DATOS/df_casos_final.csv')
@@ -28,6 +45,6 @@ data_load_state = st.text('Loading data...')
 data = load_data(1000000)
 data_load_state.text("Done! (using st.cache_data)")
 
-if st.checkbox('Show raw data'):
-    st.subheader('Raw data')
+if st.checkbox('Visualizar datos'):
+    st.subheader('Tabla')
     st.write(data)
