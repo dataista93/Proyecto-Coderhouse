@@ -17,7 +17,9 @@ import numpy as np
 
 '''
 ## This is the document title
-#####dfdsgfg
+##### dfdsgfg
+
+![Descripción de la imagen](https://picsum.photos/800/600)
 
 This is some _markdown_.
 '''
