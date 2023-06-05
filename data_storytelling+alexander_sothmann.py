@@ -12,9 +12,9 @@ import pandas as pd
 import numpy as np
 
 '''
-####**TITULO:** Evaluación de implemetanción de sistema CRM para la atención a la ciudadania. 
+#### **TITULO:** Evaluación de implemetanción de sistema CRM para la atención a la ciudadania. 
 
-####**INDICE** 
+#### **INDICE** 
 1. [Introducción](#id1)
 2. [Contexto pandemia Covid-19](#id2)
 3. [Problematica e impacto](#id3)
@@ -22,7 +22,7 @@ import numpy as np
 
 
 
-## **1. Introducción**<a name="id1"></a>
+## **1. Introducción** <a name="id1"></a>
 
 ![Funciones de la Coordinación de Documentación e Información al Ciudadano](https://ibb.co/5vcszGM)
 
@@ -43,7 +43,7 @@ def load_data(nrows):
 
 data_load_state = st.text('Loading data...')
 data = load_data(1000000)
-data_load_state.text("Done! (using st.cache_data)")
+data_load_state.text("")
 
 if st.checkbox('Visualizar datos'):
     st.subheader('Tabla')
