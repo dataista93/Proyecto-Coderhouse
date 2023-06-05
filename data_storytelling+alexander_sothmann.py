@@ -21,10 +21,7 @@ import numpy as np
 4. [Propuesta de mejora](#id4)
 
 
-
-## **1. Introducción** <a name="id1"></a>
-
-![Funciones de la Coordinación de Documentación e Información al Ciudadano](https://ibb.co/5vcszGM)
+![Funciones de la Coordinación de Documentación e Información al Ciudadano](https://i.ibb.co/bLdNyQW/entrega-page-0002.jpg)
 
 
 
